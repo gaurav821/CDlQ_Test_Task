@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+Time Spent:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I spent approximately 8 hours to complete this task.
 
-## Available Scripts
+In this task key decision I made:
 
-In the project directory, you can run:
+In this task, I implemented a dynamic pricing rule system that allows users to add items with different pricing rules (such as bulk discounts) and calculates the total cart value based on the quantities and pricing applied. Additionally, I implemented functionality to delete items from the cart and display the total cart amount dynamically. I also ensured that users are restricted from adding duplicate items to the cart, improving data integrity.
 
-### `npm start`
+For the UI, I used Material-UI to create a more user-friendly interface. I also added validation for number input fields to ensure that pricing and quantity inputs are accurate and properly formatted.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+What I'd Do with More Time:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+If I had more time, I would:
 
-### `npm test`
+-Store item details, pricing rules, and cart data in a database and retrieve the information via API calls in the frontend.
+-Implement Redux to manage the state globally throughout the application, ensuring a consistent and scalable state management approach.
+-Add a fully responsive design so that the layout is perfectly visible and functional on all device sizes, including mobile, tablet, and desktop.
+-Write unit tests for the pricing calculation logic and input handling using Jest to ensure that the application logic works as expected.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If we have to more scale up the functionality than :
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Build a full cart system with proper checkout functionality, including implementing a payment gateway for completing purchases.
+Implement admin and customer roles, where admin users can manage pricing rules, and customers can only add items to the cart and - view the pricing rules.
+Implement a notification system to alert the admin when product quantities are running low.
